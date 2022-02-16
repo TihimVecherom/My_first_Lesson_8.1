@@ -11,12 +11,12 @@
 }
 
 .wrapper {
+	max-width: 1400px;
 	font-family: 'RuslanDisplay-Regular' ;
 	font-size: 40px;
 	overflow: hidden;
 	background-color: #FFDEE9;
 	background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
-	background-position: fixed;
 }
 
 .pseudo_class{
@@ -85,7 +85,7 @@
 
 .hover_3 {
 	box-shadow:inset 0 0 5px rgba(0, 0, 0, 0.205), 0 0 5px rgba(0, 0, 0, 0.205);
-	background-color: none;
+	background-color: rgba(255, 0, 0, 0);
 	color: #ffffff00;
 }
 
@@ -250,7 +250,7 @@
 
 .active_3 {
 	box-shadow:inset 0 0 5px rgba(0, 0, 0, 0.205), 0 0 5px rgba(0, 0, 0, 0.205);
-	background-color: none;
+	background-color:rgba(255, 0, 0, 0);
 	transform: rotate(30deg);
 	color: rgba(255, 255, 255, 0);
 }
