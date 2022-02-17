@@ -91,7 +91,8 @@
 }
 
 .hover_4:hover  {
-	margin-left: 90px;
+	visibility: hidden;
+	margin-bottom: 90px;
 	background: rgb(0, 148, 0) ;
 	box-shadow:inset 0 0 10px rgb(0, 0, 0),0 0 5px rgb(1, 117, 1) ;
 	text-shadow: 0 2px 10px rgb(0, 0, 0);
@@ -156,7 +157,8 @@
 	text-shadow: 0 2px 10px rgb(0, 0, 0);
 }
 .hover_9:hover {
-	margin-left: 90px;
+
+	margin-top: 90px;
 	color: rgba(51, 161, 57, 0);
 	background: rgba(0, 47, 148, 0) ;
 	box-shadow:inset 0 0 10px rgba(255, 255, 255, 0),0 0 rgba(255, 255, 255, 0) ;
@@ -353,6 +355,7 @@
 }
 
 .three{
+	max-width: 1700px;
 	margin: 0 auto;
 	margin-bottom: 20px;
 	padding: 20px 100px 20px 100px;
@@ -621,7 +624,7 @@ a:focus{
 .game_2::before{
 	margin: 0 auto;
 	margin: 20px;
-	content: "Проведем по скрытым обьектам и если вы дойдете до конца вас ждет сюрприз :";
+	content: "Проведем по скрытым обьектам и кто дойдёт до конца ? :";
 	display: inline-block;
 	color: #01461b;
 }
